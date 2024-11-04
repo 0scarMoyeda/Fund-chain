@@ -3,15 +3,15 @@ Aplicacion web para recaudar donaciones por medio de block chain
 
 ## Como correr la App
 #### En la terminal introducir los comandos:
-### Instalar virtualenv
+### 1. Instalar virtualenv
 pip install virtualenv
 
-### 1. Crear y correr el entorno virtual
+### 2. Crear y correr el entorno virtual
 virtualenv crypto
 .\crypto\Scripts\activate
 
-### 2. Instalar liberias necesarias en el entorno 'crypto'
+### 3. Instalar liberias necesarias en el entorno 'crypto'
 pip install flask flask_mysqldb
 
-### 3. Ultimo: correr la App
+### 4. Ultimo: correr la App
 python main.py
